@@ -1,4 +1,4 @@
-import {createHashRouter} from 'react-router'
+import {createBrowserRouter} from 'react-router'
 import Home from '@pages/home/Home'
 import Game from '@pages/game/Game'
 import End from '@pages/end/End'
@@ -16,5 +16,5 @@ const routes = [
         element:<End/>
     }
 ]
-const router = createHashRouter(routes)
+const router = createBrowserRouter(routes)
 export default router

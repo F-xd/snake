@@ -17,6 +17,6 @@ const routes = [
     }
 ]
 const router = createBrowserRouter(routes,{
-    basename:"/snake"
+    basename:"/"
 })
 export default router
